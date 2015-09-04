@@ -1,0 +1,8 @@
+---
+apt_repository::params::aptly_rootdir: /opt/aptly
+apt_repository::params::repo_name: pracuj-debs
+apt_repository::params::repo_release: precise
+apt_repository::params::repo_architecture: amd64
+apt_repository::params::server_port: 6666
+apt_repository::params::server_address: 172.16.10.201
+apt_repository::params::debian_package_dir: /vagrant/files/debian_package_dir
